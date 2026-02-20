@@ -398,6 +398,96 @@ const vegetarian: MenuItem[] = [
   }
 ];
 
+const friedRice: MenuItem[] = [
+  {
+    number: "100.",
+    name: "Gebratener Reis",
+    description: "mit Hähnchenbrust, Rindfleisch, Garnelen, Paprika, Chinakohl, Champignons, Zucchini, Möhren und Broccoli in dunkler Soße",
+    price: "17,00 €"
+  },
+  {
+    number: "101.",
+    name: "Nasi Goreng",
+    description: "mit Curry gebratenem Reis, Paprika, Zwiebeln, Hähnchenbrust, Ei, Garnelen und Nüssen",
+    price: "15,00 €",
+    spicy: true
+  },
+  {
+    number: "102.",
+    name: "Gebratener Reis mit Garnelen",
+    description: "mit Ei, Paprika und Zwiebeln",
+    price: "17,00 €"
+  },
+  {
+    number: "103.",
+    name: "Gebratener Reis mit Hähnchenbrust",
+    description: "mit Ei, Paprika und Zwiebeln",
+    price: "14,00 €"
+  },
+  {
+    number: "104.",
+    name: "Gebratener Reis mit Ei und Saisongemüse",
+    price: "13,00 €"
+  },
+  {
+    number: "105.",
+    name: "Gebratener Reis",
+    description: "mit zartem Entenfleisch (nicht knusprig), Hähnchenbrust, Rindfleisch, Ei, Paprika und Zwiebeln",
+    price: "17,00 €"
+  },
+  {
+    number: "106.",
+    name: "Gebratener Reis mit zartem Entenfleisch",
+    description: "(nicht knusprig) mit Ei und Gemüse",
+    price: "16,00 €"
+  }
+];
+
+const noodles: MenuItem[] = [
+  {
+    number: "110.",
+    name: "Gebratene Nudeln",
+    description: "mit Hähnchenbrust, Rindfleisch, Garnelen, Paprika, Chinakohl, Champignons, Zucchini, Möhren und Broccoli in dunkler Soße",
+    price: "17,00 €"
+  },
+  {
+    number: "111.",
+    name: "Bami Goreng",
+    description: "in Curry gebraten mit Weißkohl, Möhren, Sojasprossen, Hähnchenbrust, Garnelen und Nüssen",
+    price: "15,00 €",
+    spicy: true
+  },
+  {
+    number: "112.",
+    name: "Gebratene Nudeln mit Garnelen",
+    description: "mit Weißkohl, Möhren und Sojasprossen",
+    price: "17,00 €"
+  },
+  {
+    number: "113.",
+    name: "Gebratene Nudeln mit Hähnchenbrust",
+    description: "mit Weißkohl, Möhren und Sojasprossen",
+    price: "14,00 €"
+  },
+  {
+    number: "114.",
+    name: "Gebratene Nudeln mit Saisongemüse",
+    price: "13,00 €"
+  },
+  {
+    number: "115.",
+    name: "Gebratene Nudeln",
+    description: "mit zartem Entenfleisch (nicht knusprig), Hähnchenbrust, Rindfleisch, Weißkohl, Möhren und Sojasprossen",
+    price: "17,00 €"
+  },
+  {
+    number: "116.",
+    name: "Gebratene Nudeln mit zartem Entenfleisch",
+    description: "(nicht knusprig) mit Weißkohl, Möhren und Sojasprossen",
+    price: "16,00 €"
+  }
+];
+
 function MenuCategory({ title, items, subtitle }: { title: string; items: MenuItem[]; subtitle?: string }) {
   return (
     <div className="mb-16">
@@ -476,6 +566,8 @@ export function FullMenu() {
             <MenuCategory title="SEA-WATER RIESENGARNELE" items={prawns} />
             <MenuCategory title="FISCH" items={fish} />
             <MenuCategory title="VEGETARISCHES, TOFU" items={vegetarian} />
+            <MenuCategory title="GEBRATENER REIS" items={friedRice} />
+            <MenuCategory title="NUDELN" items={noodles} />
           </div>
 
           <div className="text-center mt-12">

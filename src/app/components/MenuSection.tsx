@@ -7,27 +7,27 @@ import crispyDuck from '../../assets/866bf501755e37c6114f007fc7963e5b08fbaa19.pn
 const menuItems = [
   {
     image: "https://images.unsplash.com/photo-1628591697390-ce94ea55fe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwZm9vZCUyMGRpbSUyMHN1bXxlbnwxfHx8fDE3NzExNTg0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    text: "Gyoza - 10,00 €"
+    text: "Dumplings - Jiaozi - 6,50 €"
   },
   {
     image: crispyDuck,
-    text: "Knusprige halbe Ente - 28,90 €"
+    text: "Knusprige Ente mit Paprika und Bambus - 23,00 €"
   },
   {
     image: "https://images.unsplash.com/photo-1605704922285-e82455dba38b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrdW5nJTIwcGFvJTIwY2hpY2tlbnxlbnwxfHx8fDE3NzExNDIyMzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    text: "Kung Pao Hühnerfleisch - 21,90 €"
+    text: "Hähnchenbrust Chop Suey - 17,00 €"
   },
   {
     image: seafoodNoodles,
-    text: "Gebratene Nudeln - 20,90 €"
+    text: "Gebratene Nudeln mit Garnelen - 17,00 €"
   },
   {
     image: nasiGoreng,
-    text: "Nasi Goreng - 18,90 €"
+    text: "Nasi Goreng - 15,00 €"
   },
   {
     image: "https://images.unsplash.com/photo-1628591697390-ce94ea55fe12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGluZXNlJTIwZm9vZCUyMGRpbSUyMHN1bXxlbnwxfHx8fDE3NzExNTg0MjN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    text: "Sea Water Riesen-Garnelen - 35,90 €"
+    text: "Gebratene Garnelen mit Paprika und Bambus - 28,00 €"
   }
 ];
 
